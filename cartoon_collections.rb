@@ -6,7 +6,7 @@ def summon_captain_planet(array)
   array.map {|call| "#{call.capitalize}!"}
 end
 
-def long_planeteer_calls{array}
+def long_planeteer_calls(array)
   array.any? {|str| str.length > 4}
 end
 
